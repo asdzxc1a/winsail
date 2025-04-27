@@ -9,14 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@next/mdx": "^15.3.1",
     "@vercel/analytics": "*",
     "@vercel/og": "*",
+    "lucide-react": "^0.503.0",
     "next": "15.3.1",
+    "next-themes": "^0.4.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.1",
+    "react-masonry-css": "^1.0.16",
+    "swiper": "^11.2.6",
+    "usehooks-ts": "^3.1.1",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
