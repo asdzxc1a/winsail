@@ -1,13 +1,11 @@
-"use client";
 import { Metadata } from 'next';
-import Sunset from '@/content/gallery/sunset.mdx';
+import GalleryIndexClient from './GalleryIndexClient';
 
+export const metadata: Metadata = {
+  title: 'Gallery',
+  description: 'Photo gallery of our windsurfing adventures.',
+};
 
 export default function GalleryPage() {
-  return (
-    <section className="prose mx-auto p-8">
-      <h1 className="text-4xl font-bold mb-6">Sunset Surf</h1>
-      <Sunset />
-    </section>
-  );
+  return <GalleryIndexClient />;
 }
