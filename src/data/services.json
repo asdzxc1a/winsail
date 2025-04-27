@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "beginner-package",
+    "name": "Beginner Package",
+    "price": "$200",
+    "description": "Perfect for newbies to catch the wind."
+  },
+  {
+    "slug": "advanced-package",
+    "name": "Advanced Package",
+    "price": "$350",
+    "description": "For experienced windsurfers ready for more challenge."
+  }
+]
